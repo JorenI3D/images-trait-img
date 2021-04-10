@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="fr" xml:lang="fr">
+<head>
+    <title>Erreur</title>
+		<link rel="shortcut icon" href="https://moodle3.unistra.fr/theme/image.php/unistra/theme/1614019940/favicon"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Erreur" />
+<link rel="stylesheet" type="text/css" href="https://moodle3.unistra.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle3.unistra.fr/theme/styles.php/unistra/1614019940_1614020207/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle3.unistra.fr","sesskey":"OEjZ08Ox8O","themerev":"1614019940","slasharguments":1,"theme":"unistra","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1614019940","admin":"admin","svgicons":true,"usertimezone":"Europe\/Berlin","contextid":281743};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle3.unistra.fr\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle3.unistra.fr\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle3.unistra.fr\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle3.unistra.fr\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle3.unistra.fr\/theme\/yui_combo.php?m\/1614019940\/","combine":true,"comboBase":"https:\/\/moodle3.unistra.fr\/theme\/yui_combo.php?","ext":false,"root":"m\/1614019940\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_ip-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_editrolesbycap-capabilityformfield":{"requires":["base","dom","event","cookie"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_hr-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_justify-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle3.unistra.fr\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle3.unistra.fr\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1614019940\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle3.unistra.fr\/lib\/javascript.php\/1614019940\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle3.unistra.fr\/lib\/javascript.php\/1614019940\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-site-index" class="format-topics course path-site gecko dir-ltr lang-fr yui-skin-sam yui3-skin-sam moodle3-unistra-fr pagelayout-base course-3592 context-281743 category-2301 ">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Passer au contenu principal</a>
+</div><script type="text/javascript" src="https://moodle3.unistra.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://moodle3.unistra.fr/lib/javascript.php/1614019940/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    			<nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex">
+    			<div class="logo_unistra_ic"><a href="https://moodle3.unistra.fr"><span class="titre_a">Plate-forme <strong>pédagogique</strong></span><span class="titre_b">Université de Strasbourg</span></a>
+    			</div>
+    
+            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Panneau latéral</span></button>
+            </div>
+    
+    		<ul class="navbar-nav d-none d-md-flex">
+                <!-- custom_menu -->
+                <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-604a114a73ca4604a114a729404" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-604a114a73ca4604a114a729404">
+        Aide Moodle
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-604a114a73ca4604a114a729404" aria-labelledby="drop-down-604a114a73ca4604a114a729404">
+                <a class="dropdown-item" role="menuitem" href="https://documentation.unistra.fr/Catalogue/Services_pedagogiques/Moodle/" title="Informations de rentrée">Informations de rentrée</a>
+                <a class="dropdown-item" role="menuitem" href="https://documentation.unistra.fr/Catalogue/Services_pedagogiques/Moodle/Guide_etudiant/" title="Guide de l'étudiant">Guide de l'étudiant</a>
+                <a class="dropdown-item" role="menuitem" href="https://documentation.unistra.fr/Catalogue/Services_pedagogiques/Moodle/Guide_enseignant/" title="Guide de l'enseignant">Guide de l'enseignant</a>
+                <a class="dropdown-item" role="menuitem" href="https://idip.unistra.fr/ateliers-thematiques/" title="Formations">Formations</a>
+    </div>
+</li><li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-604a114a73daf604a114a729405" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-604a114a73daf604a114a729405">
+        Autres Moodle
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-604a114a73daf604a114a729405" aria-labelledby="drop-down-604a114a73daf604a114a729405">
+                <a class="dropdown-item" role="menuitem" href="https://aidealareussite.unistra.fr/login/index.php?authCAS=CAS" title="Moodle AIR">Moodle AIR</a>
+                <a class="dropdown-item" role="menuitem" href="https://moodle-archives.unistra.fr/login/index.php?authCAS=CAS" title="Moodle Archives">Moodle Archives</a>
+                <a class="dropdown-item" role="menuitem" href="https://moodle3-exam.unistra.fr/login/index.php?authCAS=CAS" title="Moodle Examens">Moodle Examens</a>
+    </div>
+</li><li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-604a114a73e5a604a114a729406" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-604a114a73e5a604a114a729406">
+        Français ‎(fr)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-604a114a73e5a604a114a729406" aria-labelledby="drop-down-604a114a73e5a604a114a729406">
+                <a class="dropdown-item" role="menuitem" href="https://moodle3.unistra.fr/?lang=de" title="Deutsch ‎(de)‎">Deutsch ‎(de)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://moodle3.unistra.fr/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://moodle3.unistra.fr/?lang=fr" title="Français ‎(fr)‎">Français ‎(fr)‎</a>
+    </div>
+</li>
+                <!-- page_heading_menu -->
+                
+            </ul>
+    	  
+    	    <ul class="nav navbar-nav ml-auto">	
+                <div class="d-none d-lg-block">
+                
+    			</div>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item">
+                <div class="popover-region collapsed popover-region-messages"
+    id="nav-message-popover-container" data-userid="14396"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-604a114a755a0604a114a729407"
+        aria-haspopup="true"
+        aria-label="Afficher la fenêtre des messages sans nouveau message"
+        tabindex="0">
+                <i class="icon fa fa-comment fa-fw "  title="Ouvrir/fermer le menu messages" aria-label="Ouvrir/fermer le menu messages"></i>
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-604a114a755a0604a114a729407"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Fenêtre de notification"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Messages personnels</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+            <a href="https://moodle3.unistra.fr/message/index.php?contactsfirst=1">Nouveau message
+            </a>
+        </div>
+        <a class="mark-all-read-button"
+           href="#"
+           role="button"
+           title="Tout marquer comme lu"
+           data-action="mark-all-read">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw "  title="Tout marquer comme lu" aria-label="Tout marquer comme lu"></i></span>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Chargement" aria-label="Chargement"></i></span>
+        </a>
+        <a href="https://moodle3.unistra.fr/message/edit.php?id=14396"
+           title="Préférences des messages">
+            <i class="icon fa fa-cog fa-fw "  title="Préférences des messages" aria-label="Préférences des messages"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">Aucun message</div>
+
+            </div>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Chargement" aria-label="Chargement"></i></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://moodle3.unistra.fr/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Tout afficher</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="14396"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-604a114a786dc604a114a729408"
+        aria-haspopup="true"
+        aria-label="Afficher la fenêtre des notifications sans nouvelle notification"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw "  title="Ouvrir/fermer le menu notifications" aria-label="Ouvrir/fermer le menu notifications"></i>
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-604a114a786dc604a114a729408"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Fenêtre de notification"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Tout marquer comme lu"
+           data-action="mark-all-read"
+           role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw "  title="Tout marquer comme lu" aria-label="Tout marquer comme lu"></i></span>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Chargement" aria-label="Chargement"></i></span>
+        </a>
+        <a href="https://moodle3.unistra.fr/message/notificationpreferences.php?userid=14396"
+           title="Préférences de notification">
+            <i class="icon fa fa-cog fa-fw "  title="Préférences de notification" aria-label="Préférences de notification"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Vous n'avez pas de notification</div>
+
+            </div>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Chargement" aria-label="Chargement"></i></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://moodle3.unistra.fr/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Tout afficher</div>
+                    </div>
+                </a>
+    </div>
+</div>
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="#" tabindex="0" class=" dropdown-toggle icon-no-margin" id="dropdown-1" aria-label="Menu utilisateur" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
+                            
+                            <span class="userbutton"><span class="usertext mr-1">Joren Schuster</span><span class="avatars"><span class="avatar current"><img src="https://moodle3.unistra.fr/theme/image.php/unistra/core/1614019940/u/f2" class="userpicture defaultuserpic" width="35" height="35" role="presentation" aria-hidden="true" /></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br" id="dropdown-menu-1">
+                                        <a href="https://moodle3.unistra.fr/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Tableau de bord
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://moodle3.unistra.fr/user/profile.php?id=14396" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fa fa-user fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                Profil
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle3.unistra.fr/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                Notes
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle3.unistra.fr/badges/mybadges.php" class="dropdown-item menu-action" role="menuitem" data-title="badges,badges" aria-labelledby="actionmenuaction-4">
+                                                <i class="icon fa fa-trophy fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                Badges
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle3.unistra.fr/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                <i class="icon fa fa-wrench fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                Préférences
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://moodle3.unistra.fr/login/logout.php?sesskey=OEjZ08Ox8O" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-6">
+                                                Déconnexion
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+                </li>
+            </ul>
+            <!-- search_box -->
+    </nav>
+    
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex">
+                    <div class="mr-auto">
+                    <div class="page-context-header"><div class="page-header-headings"><h1>Traitement de l'image</h1></div></div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        <nav role="navigation" aria-label="Barre de navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://moodle3.unistra.fr/my/"  >Tableau de bord</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle3.unistra.fr/?redirect=0" aria-current="page" >Accueil du site</a>
+                </li>
+    </ol>
+</nav>
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-12">
+                <section id="region-main" >
+                    <div class="card">
+                        <div class="card-body">
+                            <span class="notifications" id="user-notifications"></span>
+                            <div role="main"><span id="maincontent"></span><div data-rel="fatalerror" class="box errorbox alert alert-danger py-3"><p class="errormessage">Exception : Call to a member function get_filename() on boolean</p><p class="errorcode"><a href="https://docs.moodle.org/35/fr/error/moodle/generalexceptionmessage">Plus d'informations sur cette erreur</a></p></div><div class="continuebutton">
+    <form method="get" action="https://moodle3.unistra.fr/" >
+        <button type="submit" class="btn btn-primary"
+            id="single_button604a114a7294019"
+            title=""
+            >Continuer</button>
+    </form>
+</div></div>
+                            
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <ul class="list-group metismenu">
+                </ul>
+                <ul class="list-group metismenu">
+                        <li class="list-group-item list-group-item-action " data-key="myhome">
+                            <a href="https://moodle3.unistra.fr/my/">
+        						<div class="media">
+        							<span class="media-left">
+        							<i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+        							</span>
+        						<span class="text m-l-0 media-body ">Tableau de bord</span>
+        						</div>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action active font-weight-bold" data-key="home">
+                            <a href="https://moodle3.unistra.fr/?redirect=0">
+        						<div class="media">
+        							<span class="media-left">
+        							<i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+        							</span>
+        						<span class="text m-l-0 media-body font-weight-bold">Accueil du site</span>
+        						</div>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="calendar">
+                            <a href="https://moodle3.unistra.fr/calendar/view.php?view=month&amp;course=3592">
+        						<div class="media">
+        							<span class="media-left">
+        							<i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
+        							</span>
+        						<span class="text m-l-0 media-body ">Calendrier</span>
+        						</div>
+                            </a>
+                        </li>
+                    <li class="list-group-item" data-key="mycourses">
+                        <a class="m-l-0 has-arrow" href="#">
+                            <div class="media">
+        						<span class="media-left">
+        						<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        						</span>
+        						<span class="text m-l-0 media-body">Mes cours</span>
+        					</div>
+                        </a>
+                        <ul class="sub-list collapse">
+                                    <li class="list-group-item list-group-item-action " data-key="534" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=534">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">Admin &amp; Péda Master Info</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="540" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=540">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">Alg_Dis</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="2297" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=2297">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">Algo</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="11741" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=11741">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">CAO</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="21068" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=21068">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">CC</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="5025" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=5025">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">COMPILATION</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="2466" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=2466">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">Conduite de projets</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="6341" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=6341">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">EtudeCas</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="297" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=297">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">FAIN</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="6687" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=6687">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">FSSD (I3D)</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="4052" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=4052">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">Géométrie Numérique</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="7599" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=7599">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">GraphicsProgramming</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="4664" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=4664">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">M1 Math-Info English</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action active font-weight-bold" data-key="3592" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action active font-weight-bold" href="https://moodle3.unistra.fr/course/view.php?id=3592">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">M1 TI</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="5070" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=5070">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">MM M2 I3D</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="10813" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=10813">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">PRCG</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="184" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=184">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">Preuves (PrAO)</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="10456" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=10456">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">Progav</span>
+        									</div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="535" data-hidden="0" data-nodetype="1" data-type="20">
+                                        <a class="list-group-item list-group-item-action " href="https://moodle3.unistra.fr/course/view.php?id=535">
+        									<div class="media">
+        										<span class="media-left">
+        											<i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+        										</span>
+        										<span class="text m-l-0 media-body">TER M1</span>
+        									</div>
+                                        </a>
+                                    </li>
+                        </ul>
+                    </li>
+                        <li class="list-group-item list-group-item-action " data-key="privatefiles">
+                            <a href="https://moodle3.unistra.fr/user/files.php">
+        						<div class="media">
+        							<span class="media-left">
+        							<i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
+        							</span>
+        						<span class="text m-l-0 media-body ">Fichiers personnels</span>
+        						</div>
+                            </a>
+                        </li>
+                    <li class="list-group-item" data-key="course-sections">
+                        <a class="m-l-0 has-arrow" href="#">
+                            <div class="media">
+        						<span class="media-left">
+        						<i class="icon fa fa-list fa-fw " aria-hidden="true"  ></i>
+        						</span>
+        						<span class="text m-l-0 media-body">Sections du cours</span>
+        					</div>
+                        </a>
+                        <ul class="sub-list collapse">
+                        </ul>
+                    </li>
+        </ul>    </div>
+</div>
+<footer id="page-footer" class="py-3 footer_unistra">
+<div class="container-fluid">
+<div id="course-footer"></div>
+<div class="row">
+		<div class="col-md-5">
+			<div class="tool_usertours-resettourcontainer"></div>
+			<div>
+			&copy;&nbsp;2021&nbsp;Université de Strasbourg<br/>
+			<a href="https://moodle3.unistra.fr/mod/page/view.php?id=170323" title="les mentions légales s'ouvrent dans une nouvelle fenêtre" target="_blanck">Mentions légales</a>
+			&nbsp;|&nbsp;
+			<a href="https://support.unistra.fr" title="la page d'assistance technique s'ouvre dans une nouvelle fenêtre" target="_blanck">Assistance technique</a>
+			<div class="logininfo">Connecté sous le nom « <a href="https://moodle3.unistra.fr/user/profile.php?id=14396" title="Consulter le profil">Joren Schuster</a> » (<a href="https://moodle3.unistra.fr/login/logout.php?sesskey=OEjZ08Ox8O">Déconnexion</a>)</div>
+			<nav class="nav navbar-nav d-md-none">
+                <ul class="list-unstyled pt-3">
+                                    <li>Aide Moodle</li>
+                                <li>
+                                    <ul class="list-unstyled ml-3">
+                                                        <li><a href="https://documentation.unistra.fr/Catalogue/Services_pedagogiques/Moodle/" title="Informations de rentrée">Informations de rentrée</a></li>
+                                                        <li><a href="https://documentation.unistra.fr/Catalogue/Services_pedagogiques/Moodle/Guide_etudiant/" title="Guide de l'étudiant">Guide de l'étudiant</a></li>
+                                                        <li><a href="https://documentation.unistra.fr/Catalogue/Services_pedagogiques/Moodle/Guide_enseignant/" title="Guide de l'enseignant">Guide de l'enseignant</a></li>
+                                                        <li><a href="https://idip.unistra.fr/ateliers-thematiques/" title="Formations">Formations</a></li>
+                                    </ul>
+                                </li>
+                                    <li>Autres Moodle</li>
+                                <li>
+                                    <ul class="list-unstyled ml-3">
+                                                        <li><a href="https://aidealareussite.unistra.fr/login/index.php?authCAS=CAS" title="Moodle AIR">Moodle AIR</a></li>
+                                                        <li><a href="https://moodle-archives.unistra.fr/login/index.php?authCAS=CAS" title="Moodle Archives">Moodle Archives</a></li>
+                                                        <li><a href="https://moodle3-exam.unistra.fr/login/index.php?authCAS=CAS" title="Moodle Examens">Moodle Examens</a></li>
+                                    </ul>
+                                </li>
+                                    <li><a href="#" title="Langue">Français ‎(fr)‎</a></li>
+                                <li>
+                                    <ul class="list-unstyled ml-3">
+                                                        <li><a href="https://moodle3.unistra.fr/?lang=de" title="Deutsch ‎(de)‎">Deutsch ‎(de)‎</a></li>
+                                                        <li><a href="https://moodle3.unistra.fr/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                                        <li><a href="https://moodle3.unistra.fr/?lang=fr" title="Français ‎(fr)‎">Français ‎(fr)‎</a></li>
+                                    </ul>
+                                </li>
+                </ul>
+			</nav>
+			<a href="https://download.moodle.org/mobile?version=2018051711.01&amp;lang=fr&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Obtenir l'app mobile</a><div class="policiesfooter"><a href="https://moodle3.unistra.fr/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Fmoodle3.unistra.fr%2F">Politiques</a></div>
+			</div>
+		</div>	
+		<div class="col-md-7 social d-flex justify-content-end">
+          <ul class="list-inline">
+			<li class="list-inline-item"><a href="http://unistra.fr" target="_blank" title="la page s'ouvre dans une nouvelle fenêtre"><i class="fa fa-globe"></i></a></li>
+			<li class="list-inline-item"><a href="http://www.facebook.com/unistra" target="_blank" title="la page s'ouvre dans une nouvelle fenêtre"><i class="fa fa-facebook"></i></a></li>
+			<li class="list-inline-item"><a href="http://twitter.com/#!/unistra" target="_blank" title="la page s'ouvre dans une nouvelle fenêtre"><i class="fa fa-twitter"></i></a></li>
+			<li class="list-inline-item"><a href="http://instagram.com/unistraofficiel/" target="_blank" title="la page s'ouvre dans une nouvelle fenêtre"><i class="fa fa-instagram"></i></a></li>
+			<li class="list-inline-item"><a href="http://www.youtube.com/user/unistraofficielle" target="_blank" title="la page s'ouvre dans une nouvelle fenêtre"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle3.unistra.fr/lib/requirejs.php/1614019940/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle3.unistra.fr/lib/javascript.php/1614019940/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://moodle3.unistra.fr/lib/javascript.php/1614019940/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle3.unistra.fr/lib/javascript.php/1614019940/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://moodle3.unistra.fr/lib/javascript.php/1614019940/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle3.unistra.fr/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("fr",{
+ "Audio Player": "Lecteur audio",
+ "Video Player": "Lecteur vidéo",
+ "Play": "Lecture",
+ "Pause": "Pause",
+ "Replay": "Revoir",
+ "Current Time": "Temps actuel",
+ "Duration Time": "Durée",
+ "Remaining Time": "Temps restant",
+ "Stream Type": "Type de flux",
+ "LIVE": "EN DIRECT",
+ "Loaded": "Chargé",
+ "Progress": "Progression",
+ "Progress Bar": "Barre de progression",
+ "progress bar timing: currentTime={1} duration={2}": "{1} de {2}",
+ "Fullscreen": "Plein écran",
+ "Non-Fullscreen": "Fenêtré",
+ "Mute": "Sourdine",
+ "Unmute": "Son activé",
+ "Playback Rate": "Vitesse de lecture",
+ "Subtitles": "Sous-titres",
+ "subtitles off": "Sous-titres désactivés",
+ "Captions": "Sous-titres transcrits",
+ "captions off": "Sous-titres transcrits désactivés",
+ "Chapters": "Chapitres",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions désactivées",
+ "Audio Track": "Piste audio",
+ "Volume Level": "Niveau de volume",
+ "You aborted the media playback": "Vous avez interrompu la lecture de la vidéo.",
+ "A network error caused the media download to fail part-way.": "Une erreur de réseau a interrompu le téléchargement de la vidéo.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "Cette vidéo n'a pas pu être chargée, soit parce que le serveur ou le réseau a échoué ou parce que le format n'est pas reconnu.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "La lecture de la vidéo a été interrompue à cause d'un problème de corruption ou parce que la vidéo utilise des fonctionnalités non prises en charge par votre navigateur.",
+ "No compatible source was found for this media.": "Aucune source compatible n'a été trouvée pour cette vidéo.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "Le média est chiffré et nous n'avons pas les clés pour le déchiffrer.",
+ "Play Video": "Lire la vidéo",
+ "Close": "Fermer",
+ "Close Modal Dialog": "Fermer la boîte de dialogue modale",
+ "Modal Window": "Fenêtre modale",
+ "This is a modal window": "Ceci est une fenêtre modale",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "Ce modal peut être fermé en appuyant sur la touche Échap ou activer le bouton de fermeture.",
+ ", opens captions settings dialog": ", ouvrir les paramètres des sous-titres transcrits",
+ ", opens subtitles settings dialog": ", ouvrir les paramètres des sous-titres",
+ ", opens descriptions settings dialog": ", ouvrir les paramètres des descriptions",
+ ", selected": ", sélectionné",
+ "captions settings": "Paramètres des sous-titres transcrits",
+ "subtitles settings": "Paramètres des sous-titres",
+ "descriptions settings": "Paramètres des descriptions",
+ "Text": "Texte",
+ "White": "Blanc",
+ "Black": "Noir",
+ "Red": "Rouge",
+ "Green": "Vert",
+ "Blue": "Bleu",
+ "Yellow": "Jaune",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Arrière-plan",
+ "Window": "Fenêtre",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Taille des caractères",
+ "Text Edge Style": "Style des contours du texte",
+ "None": "Aucun",
+ "Raised": "Élevé",
+ "Depressed": "Enfoncé",
+ "Uniform": "Uniforme",
+ "Dropshadow": "Ombre portée",
+ "Font Family": "Famille de polices",
+ "Proportional Sans-Serif": "Polices à chasse variable sans empattement (Proportional Sans-Serif)",
+ "Monospace Sans-Serif": "Polices à chasse fixe sans empattement (Monospace Sans-Serif)",
+ "Proportional Serif": "Polices à chasse variable avec empattement (Proportional Serif)",
+ "Monospace Serif": "Polices à chasse fixe avec empattement (Monospace Serif)",
+ "Casual": "Manuscrite",
+ "Script": "Scripte",
+ "Small Caps": "Petites capitales",
+ "Reset": "Réinitialiser",
+ "restore all settings to the default values": "Restaurer tous les paramètres aux valeurs par défaut",
+ "Done": "Terminé",
+ "Caption Settings Dialog": "Boîte de dialogue des paramètres des sous-titres transcrits",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Début de la fenêtre de dialogue. La touche d'échappement annulera et fermera la fenêtre.",
+ "End of dialog window.": "Fin de la fenêtre de dialogue."
+});
+
+    });
+});;
+
+require(['jquery'], function($) {
+    $('#single_select604a114a729403').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f604a114a729402').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select604a114a7294018').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f604a114a7294017').submit();
+        }
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+require(['theme_unistra/backtotop'], function(mod) {
+    mod.init();
+});
+require(['theme_unistra/incoursesettings'], function(mod) {
+    mod.init();
+});
+require(['theme_unistra/metismenu'], function(mod) {
+    mod.init();
+});
+require(['theme_unistra/navlink'], function(mod) {
+    mod.init();
+});
+;
+M.util.js_pending('core/notification');
+require(['core/notification'], function(amd) {
+    amd.init(281743, []);
+    M.util.js_complete('core/notification');
+});;
+M.util.js_pending('core/log');
+require(['core/log'], function(amd) {
+    amd.setConfig({"level":"warn"});
+    M.util.js_complete('core/log');
+});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Modifi\u00e9 le","name":"Nom","error":"Erreur","info":"Information","yes":"Oui","no":"Non","ok":"OK","cancel":"Annuler","confirm":"Confirmer","areyousure":"En \u00eates-vous bien s\u00fbr\u00a0?","closebuttontitle":"Fermer","unknownerror":"Erreur inconnue"},"repository":{"type":"Type","size":"Taille","invalidjson":"Cha\u00eene JSON non valide","nofilesattached":"Aucun fichier joint","filepicker":"S\u00e9lecteur de fichiers","logout":"D\u00e9connexion","nofilesavailable":"Aucun fichier disponible","norepositoriesavailable":"D\u00e9sol\u00e9, aucun de vos d\u00e9p\u00f4ts actuels ne peut retourner de fichiers dans le format requis.","fileexistsdialogheader":"Le fichier existe","fileexistsdialog_editor":"Un fichier de ce nom a d\u00e9j\u00e0 \u00e9t\u00e9 joint au texte que vous modifiez.","fileexistsdialog_filemanager":"Un fichier de ce nom a d\u00e9j\u00e0 \u00e9t\u00e9 joint","renameto":"Renommer \u00e0 \u00ab\u00a0{$a}\u00a0\u00bb","referencesexist":"Ce fichier est utilis\u00e9 comme source par {$a} alias.","select":"S\u00e9lectionnez"},"admin":{"confirmdeletecomments":"Voulez-vous vraiment supprimer des commentaires\u00a0?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\nTeX: {extensions: [\"AMSmath.js\",\"AMSsymbols.js\",\"mhchem.js\",\"noErrors.js\",\"noUndefined.js\"]},\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"fr"});
+});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random604a114a7294020'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random604a114a7294020'); });
+})();
+//]]>
+</script>
+
+    </div>
+</div>
+
+</footer><script type="text/javascript"></script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
